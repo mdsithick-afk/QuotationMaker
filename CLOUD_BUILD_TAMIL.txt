@@ -1,0 +1,11 @@
+உங்கள் கணினியில் Python இல்லாமல் setup.exe பெற (GitHub - இலவசம்)
+=================================================================
+1. github.com-ல் இலவச கணக்கு உருவாக்கவும்.
+2. New repository -> பெயர்: QuotationMaker -> Private -> Create.
+3. "uploading an existing file" -> இந்த zip-ஐ extract செய்து உள்ளே உள்ள அனைத்து கோப்புகளையும் (".github" folder உட்பட)
+   இழுத்து விடவும் -> Commit.
+   (".github" தெரியவில்லை என்றால்: Add file -> Create new file -> பெயர்: .github/workflows/build.yml -> build.yml உள்ளடக்கத்தை ஒட்டவும்.)
+4. மேலே "Actions" tab -> "Build Windows Installer" -> Run workflow. சுமார் 4-6 நிமிடம் காத்திருக்கவும்.
+5. முடிந்ததும் அந்த run-ஐ திறந்து கீழே "Artifacts" -> QuotationMaker_Setup என்பதை download செய்யவும்.
+6. Zip-ஐ extract செய்தால் QuotationMaker_Setup.exe கிடைக்கும். Windows 11-ல் double-click செய்து நிறுவவும்.
+   (Python நிறுவ தேவையில்லை. "Windows protected your PC" வந்தால் More info -> Run anyway.)
